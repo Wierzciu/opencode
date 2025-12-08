@@ -1599,6 +1599,7 @@ ToolRegistry.register<typeof EditTool>({
               syntaxStyle={syntax()}
               showLineNumbers={true}
               width="100%"
+              fg={theme.text}
               wrapMode={ctx.diffWrapMode()}
               addedBg={theme.diffAddedBg}
               removedBg={theme.diffRemovedBg}
